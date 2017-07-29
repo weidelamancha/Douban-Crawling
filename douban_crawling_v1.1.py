@@ -65,7 +65,7 @@ for page in range(77):
 
 		f.write(movie + "," + douban_link + "," + date + "," + rating + "," + tag + "," + comment + "\n")
 
-		#time.sleep(2)
+		time.sleep(2)
 
 f.close()
 		
