@@ -1,1 +1,2 @@
-# This is the v1.0 of douban_crawling, written to export personal movie-watching history for users of www.douban.com. More functionalities will be added in next versions.
+For users of www.douban.com to export personal movie-watching history.
+More functionalities will be added in next update.
