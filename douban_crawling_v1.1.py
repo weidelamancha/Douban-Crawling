@@ -21,9 +21,9 @@ headers = "movie,douban_link,date,rating,tag,comment\n"
 f.write(headers)
 
 
-for page in range(77):
+for page in range(MOVIE PAGES YOU HAVE):
 
-	url = "https://movie.douban.com/people/<your username>/collect?start={}&sort=time&rating=all&filter=all&mode=grid".format(page*15)
+	url = "https://movie.douban.com/people/YOUR USERNAME/collect?start={}&sort=time&rating=all&filter=all&mode=grid".format(page*15)
 	url_text = requests.get(url).text
 	soup = bs(url_text, 'html.parser')
 	douban_data = soup.find_all("div", {"class" : "item"})
