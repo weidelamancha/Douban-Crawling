@@ -1,3 +1,7 @@
+# Author: Wei Wang
+# Upload date: 2017.07.29
+
+
 # TO RUN WITH PYTHON 2
 
 import time
